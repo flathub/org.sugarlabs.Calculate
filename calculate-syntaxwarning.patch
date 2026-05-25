@@ -1,0 +1,10 @@
+diff --git a/astparser.py b/astparser.py
+index 658de4e..2741b68 100644
+--- a/astparser.py
++++ b/astparser.py
+@@ -224,3 +224,3 @@ class Parser:
+-    FLOAT_REGEXP_STR = '([+-]?[0-9]*\.?[0-9]+([eE][+-]?[0-9]+)?)'
++    FLOAT_REGEXP_STR = r'([+-]?[0-9]*\.?[0-9]+([eE][+-]?[0-9]+)?)'
+     FLOAT_REGEXP = re.compile(FLOAT_REGEXP_STR)
+-    RANGE_REGEXP = re.compile('=([^,]+)\.\.([^,]+)')
++    RANGE_REGEXP = re.compile(r'=([^,]+)\.\.([^,]+)')

@@ -33,6 +33,10 @@
                 },
                 {
                     "type": "patch",
+                    "path": "calculate-syntaxwarning.patch"
+                },
+                {
+                    "type": "patch",
                     "path": "calculate-port.patch"
                 },
                 {
